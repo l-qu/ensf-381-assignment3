@@ -18,4 +18,4 @@ function FlavorItem({image, name, price, desc, onAdd}){
     )
 }
 
-export default FlavorItem
+export default FlavorItem;

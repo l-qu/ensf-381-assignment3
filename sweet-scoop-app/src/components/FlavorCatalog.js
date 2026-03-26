@@ -19,4 +19,4 @@ function FlavorCatalog({onAdd}) {
   );
 }
 
-export default FlavorCatalog
+export default FlavorCatalog;

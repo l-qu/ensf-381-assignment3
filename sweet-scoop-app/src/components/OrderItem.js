@@ -10,4 +10,4 @@ function OrderItem({item, onRemove}){
     );
 }
 
-export default OrderItem
+export default OrderItem;
