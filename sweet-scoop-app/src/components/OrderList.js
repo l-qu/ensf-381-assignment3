@@ -15,7 +15,8 @@ function OrderList({order = [], onRemove}){
                            onRemove = {onRemove}/>
             )))}
 
-            <h4>Total: ${total.toFixed(2)}</h4>
+            {order.length !== 0 ? (<h4>Total: ${total.toFixed(2)}</h4>) :
+            (null)}
         </div>
     );
 }
